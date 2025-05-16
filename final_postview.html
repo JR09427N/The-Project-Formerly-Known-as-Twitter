@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css" />
+        <title>Post View</title>
+    </head>
+
+    <body>
+        <div><button class="back" onclick="final_feed_relocate();">Back</button></div>
+        <div id="divResults"></div>
+        <div><input id="comment" placeholder="Post your reply..."></div>
+        <div><button class="comments" onclick="final_upload_comm();">💬 Reply</button></div>
+        <div id="comResults"></div>
+
+        <script src="/static/script.js"></script>
+
+        <script>
+            final_list_one_post("{{ postId }}");
+        </script>
+    </body>
+</html>

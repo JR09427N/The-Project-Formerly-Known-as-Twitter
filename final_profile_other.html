@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css" />
+        <title>Profile</title>
+    </head>
+
+    <body>
+        <div id="username"></div>
+        <div><img scr="" id="pfp" width='110'></div>
+
+        <div id="divResults"></div>
+
+        <div><button class="blue_button" onclick="final_feed_relocate('{{ username }}');">Show feed</button></div>
+
+        <script src="/static/script.js"></script>
+
+        <script>
+            final_show_posts("{{ username }}");
+
+            final_show_pfp("{{ username }}");
+
+            final_show_username("{{ username }}");
+        </script>
+    </body>
+</html>

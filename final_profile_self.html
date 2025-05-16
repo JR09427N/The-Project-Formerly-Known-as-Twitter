@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css" />
+        <title>My Profile</title>
+    </head>
+
+    <body>
+        <div id="username"></div>
+        <div><button class="blue_button" onclick="final_feed_relocate();">🌐 Explore</button></div></br>
+        <div><img scr="" id="pfp" width='110'></div>
+        <div><input type="file" id="file" /></div>
+        <div><button id="upload_pfp_btn" onclick="final_get_email('{{ username }}');">Upload New PFP</button></div></br>
+
+        <div><input class="input" id="post" placeholder="What's happening?"></div>
+        <div><button id="post_content_btn" onclick="final_upload_post('{{ username }}');">Post</button></div>
+
+        <div id="divResults"></div>
+        <div><button class="blue_button" onclick="final_feed_relocate();">Show feed</button></div>
+
+        <script src="/static/script.js"></script>
+
+        <script>
+            final_show_posts("{{ username }}");
+
+            final_show_pfp("{{ username }}");
+
+            final_show_username("{{ username }}");
+        </script>
+    </body>
+</html>
