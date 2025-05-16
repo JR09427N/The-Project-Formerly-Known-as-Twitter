@@ -52,13 +52,16 @@ The project was deployed using [PythonAnywhere](https://www.pythonanywhere.com) 
 
 ## 💻 Screenshots
 ### Home Page
-<p align="center"> <img src="homepage.png" alt="Home Page" width="600"/> </p>
+<p align="center"> <img src="home.png" alt="Home Page" width="600"/> </p>
 
 ### Profile Page
 <p align="center"> <img src="profile.png" alt="Profile Page" width="600"/> </p>
 
 ### Feed Page
-![Screenshot](https://raw.githubusercontent.com/JR09427N/the-project-formerly-known-as-twitter/main/feed.png)
+<p align="center"> <img src="feed.png" alt="Feed Page" width="600"/> </p>
+
+### PostView Page
+<p align="center"> <img src="postview.png" alt="PostView Page" width="600"/> </p>
 
 
 ## 👥 Team
