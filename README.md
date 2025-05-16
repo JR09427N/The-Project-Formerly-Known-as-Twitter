@@ -58,7 +58,8 @@ The project was deployed using [PythonAnywhere](https://www.pythonanywhere.com) 
 <p align="center"> <img src="profile.png" alt="Profile Page" width="600"/> </p>
 
 ### Feed Page
-<p align="center"> <img src="feed.png" alt="Feed Page" width="600"/> </p>
+![Screenshot](https://raw.githubusercontent.com/JR09427N/the-project-formerly-known-as-twitter/main/feed.png)
+
 
 ## 👥 Team
 Developed by: **Jean-Sebastien Rateau**
